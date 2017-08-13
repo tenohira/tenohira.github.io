@@ -1,5 +1,26 @@
-
 .header {
-	width: 100%;
+	width: 100%; // 横幅を端まで伸ばす
+	padding: 70px 30px 10px;
+	//text-align: center;
+
+	background-color: gray;
+	
+	.title {
+		font-family: "Hannari", "Sawarabi Mincho";
+		&-sub {
+			margin: 0 40px 4px;					
+			font-size: 3.0rem;
+		}		
+		&-main {
+			margin: 0 40px 20px;					
+			font-size: 6.0rem;
+		}		
+	}
+
+	.description {
+		margin: 0 40px 30px;		
+		font-size: 1.6rem;
+	}
+
 }
 

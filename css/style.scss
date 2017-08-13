@@ -1,0 +1,25 @@
+---
+---
+
+@import "http://fonts.googleapis.com/earlyaccess/notosansjapanese";
+@import "https://fonts.googleapis.com/earlyaccess/hannari.css";
+@import "https://fonts.googleapis.com/earlyaccess/sawarabimincho.css";
+@import "http://fonts.googleapis.com/css?family=Inconsolata";
+
+
+html {
+	font-size: 62.5%; // 10px相当
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Noto Sans Japanese;
+	
+}
+
+@import "header";
+@import "main";
+@import "footer";
