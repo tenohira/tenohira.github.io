@@ -3,3 +3,4 @@ exclude: [ post.sh ]
 future: true
 markdown: kramdown
 highlighter: rouge
+permalink: /ep-:title
