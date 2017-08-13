@@ -1,0 +1,26 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <title>手のひら返し</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="/css/post.css" rel="stylesheet">	
+</head>
+<body>
+	<header class="header">		
+	</header>
+	<main class="main">
+		<ul>
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }} : ({{ post.date | date_to_string }})</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</main>
+	<footer class="footer"></footer>
+</body>
+</html>
+
