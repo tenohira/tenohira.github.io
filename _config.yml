@@ -4,3 +4,6 @@ future: true
 markdown: kramdown
 highlighter: rouge
 permalink: /ep-:title
+sass:
+  sass_dir: css
+  style: compressed
