@@ -1,6 +1,6 @@
 exclude: [
   post.sh
-  , _posts/1900-01-01-000.md
+  #, _posts/1900-01-01-000.md
 ]
 
 future: true
