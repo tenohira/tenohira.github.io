@@ -4,11 +4,10 @@ layout: default
 <main class="main">
 	{% for post in site.posts %}
 	<article class="post">
-		<a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+		<a href="{{ post.url }}" class="post-title">{{post.ep_number}}. {{ post.title }}</a>
 		<p class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</p>
 		<p class="post-description">{{ post.description }}</p>		
 	</article>	
 	{% endfor %}
-
 </main>
 

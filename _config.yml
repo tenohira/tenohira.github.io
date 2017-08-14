@@ -1,4 +1,4 @@
-exclude: [ post.sh ]
+exclude: [ post.sh , ./_posts/1900-01-01-000.md ]
 
 future: true
 markdown: kramdown
@@ -7,3 +7,11 @@ permalink: /ep-:title
 sass:
   sass_dir: css
   style: compressed
+
+title: てのひら返し
+url: https://tenohira.github.io
+author: しゃみそん,やなぎ
+description: オタクが語り合うPodcast
+description_long: アニメ、ゲームなどを中心に、意見をころころ変え、てのひらを返していく雑談Podcast
+keywords: anime,game,otaku,tenohira
+email: tenohira.pod@gmail.com
