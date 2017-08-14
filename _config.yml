@@ -1,4 +1,7 @@
-exclude: [ post.sh , ./_posts/1900-01-01-000.md ]
+exclude: [
+  post.sh
+  , _posts/1900-01-01-000.md
+]
 
 future: true
 markdown: kramdown

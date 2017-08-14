@@ -1,9 +1,22 @@
 .footer {	
-	width: 100%; // 横幅を端まで伸ばす	
+	width: 100%; // 横幅を端まで伸ばす
 	background-color: #DBDBDB;
-	font-size: 1.7rem;
-	text-align: right;
-	padding: 10px 56px 10px;
+	padding: 0 56px 0;
 	position: absolute;
 	bottom: 0;
+
+	&-title {	
+		font-size: 2.0rem;
+		color: #666666;
+	}
+	
+	&-link {
+		font-size: 1.6rem;
+	}
+
+	&-copyright {
+		font-size: 1.2rem;
+		text-align: right;
+		color: #666666;		
+	}
 }
