@@ -1,5 +1,9 @@
-.footer {
-	width: 100%; // 横幅を端まで伸ばす
-
-	background-color: blue;
+.footer {	
+	width: 100%; // 横幅を端まで伸ばす	
+	background-color: #DBDBDB;
+	font-size: 1.7rem;
+	text-align: right;
+	padding: 10px 56px 10px;
+	position: absolute;
+	bottom: 0;
 }
