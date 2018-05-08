@@ -1,41 +1,43 @@
 .article {
-	padding: 50px 56px 150px;
-	margin: 0 auto 0;
+	padding: 2rem 0px 2rem;
 	word-wrap: break-word;
+	font-size: 1.5rem;
+	
+	&-inner {
+		h1 {
+			color: #000000;
+		}
 
-	audio {
-		width: 100%;
-		max-width: 500px;
-	}
-	
-	&-title {
-		font-size: 2.5rem;
-	}
-	
-	&-date, &-player{		
-		font-size: 1.4rem;
-		margin: 0 0 10px 18px;		
-	}
-	
-	&-description {
-		font-size: 1.6rem;
-		margin: 0 0 0 18px;				
-	}
-
-	&-content {
-		font-size: 1.6rem;
-		h1 { font-size: 2.5rem; }
-		h2 { font-size: 2.2rem; }
-		h3 { font-size: 2.0rem; }
-		h4 { font-size: 1.8rem; }	
-		p{
-			margin: 0 0 0 18px;
+		padding: 1rem 2rem;
+		border-top: solid 5px #5d627b;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+		
+		audio {
+			width: 100%;
+			max-width: 500px;
+		}
+		&-title {
+			font-size: 3.0rem;
+		}
+		&-date, &-player{		
+			font-size: 1.5rem;
+		}
+		&-description {
 			font-size: 1.6rem;
 		}
+		&-content {
+			font-size: 1.6rem;
+			h1 { font-size: 2.5rem; }
+			h2 { font-size: 2.2rem; }
+			h3 { font-size: 2.0rem; }
+			h4 { font-size: 1.8rem; }	
+			p{
+				margin: 0 0 0 18px;
+				font-size: 1.6rem;
+			}
+		}	
+		.twitter-share-button {
+			margin: 15px 0 0 0;
+		}
 	}
-
-	.twitter-share-button {
-		margin: 15px 0 0 0;
-	}
-
 }

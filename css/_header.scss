@@ -5,27 +5,16 @@
 	width: 100%; // 横幅を端まで伸ばす
 	
 	.title {
-		font-family: "Hannari", "Sawarabi Mincho";
-		margin: 0 auto 0;
-		padding: 70px 16px 20px;
-		text-shadow:
-			1px 1px 3px #777,
-			-1px 1px 3px #777,
-			1px -1px 3px #777,
-			-1px -1px 3px #777;
+		font-family: "Lobster", "Sawarabi Mincho";
+		padding: 50px 16px 10px;
 		color: black;
 		a {
 			color: black;
 		}
 		
-		&-sub {
-			margin: 0 40px 4px;
-			font-size: 2.5rem;
-		}
-
 		&-main {
-			margin: 0 40px 6px;
-			font-size: 4.5rem;
+			margin: 0 40px 4px;
+			font-size: 6.0rem;
 		}
 
 		&-description {

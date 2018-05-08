@@ -1,11 +1,10 @@
 ---
 ---
 
-@import "http://fonts.googleapis.com/earlyaccess/notosansjapanese";
-@import "https://fonts.googleapis.com/earlyaccess/hannari.css";
-@import "https://fonts.googleapis.com/earlyaccess/sawarabimincho.css";
-@import "http://fonts.googleapis.com/css?family=Inconsolata";
-
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese";
+@import "https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css";
+@import "https://fonts.googleapis.com/css?family=Lobster";
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
 
 html, body {
 	font-size: 62.5%; // 10px相当
@@ -25,10 +24,9 @@ a {
 
 .container {
 	font-family: Noto Sans Japanese;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	position: relative;	
+	display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 @import "header";
