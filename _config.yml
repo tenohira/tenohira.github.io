@@ -11,10 +11,10 @@ sass:
   sass_dir: css
   style: compressed
 
-title: てのひら返し
+title: TeNoHiRa Logs
 url: https://tenohira.github.io
-author: しゃみそん,やなぎ
-description: オタクが語り合うPodcast
-description_long: アニメ、ゲームなどを中心に、意見をころころ変え、てのひらを返していく雑談Podcast
-keywords: anime,game,otaku,tenohira
+author: shamison,yanagirinn, etc... 
+description: ログ的雑談Podcast
+description_long: アニメ、ゲーム、ITなどを中心に、意見をころころ変えて、TeNoHiRaを返しまくる人達のログ的雑談Podcast
+keywords: anime,game,it,tenohira
 email: tenohira.pod@gmail.com
