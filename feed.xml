@@ -18,8 +18,10 @@
       <itunes:name>{{ site.author }}</itunes:name>
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ site.url }}/images/itunes-artwork.jpg" />
-    <itunes:category text="Personal Journals"/>
+    <itunes:image href="{{ site.url }}/images/itunes-artwork.png" />
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals"/>
+		</itunes:category>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
       <item>
@@ -36,7 +38,7 @@
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
-        <media:thumbnail url="{{ site.url }}/images/itunes-artwork-240.jpg"/>
+        <media:thumbnail url="{{ site.url }}/images/itunes-artwork.png"/>
       </item>
     {% endfor %}
   </channel>
